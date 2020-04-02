@@ -3,19 +3,12 @@ var inquirer = require ("inquirer");
 var Table = require("cli-table2");
 
 var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "aedingbo",
+  host: "us-cdbr-iron-east-02.cleardb.net",
+  user: "bbcb931f5c898e",
+  password: "770536e7",
   database: "bamazon",
   port: 3306
 });
-
-module.exports = {
-  HOST: "us-cdbr-iron-east-02.cleardb.net",
-  USER: "bbcb931f5c898e",
-  PASSWORD: "770536e7",
-  DB: "heroku_169bfb334eb585d"
-};
 
 connection.connect();
 
