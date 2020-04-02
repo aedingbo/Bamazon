@@ -10,6 +10,13 @@ var connection = mysql.createConnection({
   port: 3306
 });
 
+module.exports = {
+  HOST: "us-cdbr-iron-east-02.cleardb.net",
+  USER: "bbcb931f5c898e",
+  PASSWORD: "770536e7",
+  DB: "heroku_169bfb334eb585d"
+};
+
 connection.connect();
 
 
